@@ -1,0 +1,35 @@
+<div class="container-fluid">
+	<div class="card shadow mb-4">
+		<div class="card-header py-3">
+			<h6 class="m-0 font-weight-bold text-primary">Register List</h6>
+			
+
+		</div>
+
+
+		<div class="card-body">
+			<div class="table-responsive">
+				<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+					<thead>
+						<tr>
+							<th scope="col">Number</th>
+							<th scope="col">Name</th>
+							<th scope="col">Email</th>
+							<th scope="col">Company</th>
+							<th scope="col">Mobile Number</th>
+							<th scope="col">Message</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{#each userdetails}}
+        <tr id="row-1">
+            <th scope="row">{{inc @index}}</th>
+            <td class="name">{{this.Name}}</td>
+            <td class="email">{{this.Email}} </td>
+            <td class="phone">{{this.Company}}</td>
+            <td class="address">{{this.phone}}</td>
+			<td class="id">{{this.Message}}</td>
+            
+        </tr>
+		{{/each}}
+

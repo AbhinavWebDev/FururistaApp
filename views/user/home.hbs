@@ -1,0 +1,159 @@
+<body>
+    <!-- Check Symbol -->
+    <svg xmlns="/" style="display: none;">
+        <symbol id="check" viewBox="0 0 16 16">
+            <title>Check</title>
+            <path
+                d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z">
+            </path>
+        </symbol>
+    </svg>
+    <div class="bodypage1">
+        <!--Header-->
+        <header id="header">
+
+
+
+            <!--Nav Bar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent " id="nav-bar">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="#home" id="header-img">
+                        <!-- Place Your Logo Here -->
+                        <img src="/assets/logo.png" class="img-fluid" width="100" height="100">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Links -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between align-items-center"
+                            id="links">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" id="homeBtnNavLink" aria-current="page"
+                                    href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light text-muted" id="featuresBtnNavLink"
+                                    href="#features">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light text-muted" id="pricingBtnNavLink" href="#pricing">Our
+                                    Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light text-muted" id="contactusBtnNavLink" href="/userList">User
+                                    List
+                                </a>
+                            </li>
+                            <button class="btn btn-primary  float-right" type="submit">CONTACT US</button>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Home -->
+        <div class="container" id="home">
+            <!-- Hero Section -->
+            <div class="jumbotron positionCenter" id="heroSection">
+                <h1 class="text-center text-white font-weight-bold">Future of Spend <br /> Management Virtual
+                    <br />Summit</h1>
+
+                <p class="lead text-center text-white ">#FSM2023 <br />Date:24th February,2023 <br />Time - 1000hrs
+                    ET/1500 hrs GMT</p1>
+
+
+
+
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+
+                        <button class="btn btn-primary m-1" type="button">Reverse Your Pass Now</button>
+                        <button class="btn btn-light m-1" type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Interested In SponsorShip</button>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class=" text-center " id="exampleModalLabel">SponsorShip <br /> (Your information is safe with
+                        us.)</h5>
+                </div>
+                <div class="modal-body">
+                    <form id="Signup" action="/register" method="post" class="mx-1 mx-md-4">
+                        <div class="d-flex flex-row align-items-center mb-4">
+
+                            <div class="form-outline flex-fill mb-0">
+                                <input name="Name" type="text" class="form-control" placeholder="Your Full Name" />
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-4">
+
+
+                            <div class="form-outline flex-fill mb-0">
+                                <input name="Company" type="text" class="form-control"
+                                    placeholder="Your Company Name" />
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-4">
+
+                            <div class="form-outline flex-fill mb-0">
+                                <input name="Email" type="email" class="form-control"
+                                    placeholder="Your Email Address" />
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-4">
+
+                            <div class="form-outline flex-fill mb-0">
+                                <input name="phone" type="text" class="form-control"
+                                    placeholder="Your Contact Number" />
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-4">
+
+
+                            <div class="form-outline flex-fill mb-0">
+                                <input name="Message" type="text" class="form-control" placeholder="Your Message" />
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <button type="submit" class="btn btn-primary">SUBMIT</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">CLOSE</button>
+
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
